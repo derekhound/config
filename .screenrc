@@ -24,7 +24,7 @@
 # ===============================================================
 
 # ===============================================================
-# 10. Window Settings 
+# 10. Window Settings
 # ===============================================================
 
 # ===============================================================
@@ -42,27 +42,25 @@
   defscrollback         100000          # default: 100
 
 # ===============================================================
-# 13. Subprocess Execution 
+# 13. Subprocess Execution
 # ===============================================================
 
 # ===============================================================
 # 14. Key Binding
 # ===============================================================
 
-# see big5 file in utf8 terminal mode 
+# see big5 file in utf8 terminal mode
   bind b encoding big5 utf8
 # see utf8 file in utf8 terminal mode
   bind u encoding utf8 utf8
 
 # for ctrl right and left arrows
-  bindkey "^[O5C"   next
-  bindkey "^[O5D"   prev
-  bindkey "^[[C"    next
-  bindkey "^[[D"    prev
-  bindkey "^[[1;5D" prev
-  bindkey "^[[1;5C" next
-  bindkey "^[[5D"   prev
-  bindkey "^[[5C"   next
+  bindkey "^[O5C"   next                 # xshell
+  bindkey "^[O5D"   prev                 # xshell
+  bindkey "^[[C"    next                 # putty
+  bindkey "^[[D"    prev                 # putty
+  bindkey "^[[1;5D" prev                 # cygwin, chrome ssh
+  bindkey "^[[1;5C" next                 # cygwin, chrome ssh
 
 # ===============================================================
 # 15. Flow Control

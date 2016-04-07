@@ -57,7 +57,7 @@
 # set the command character
   escape ^Vv
 
-# for ctrl right and left arrows
+# for shift right and left arrows
   bindkey "^[[1;2D" prev
   bindkey "^[[1;2C" next
 
